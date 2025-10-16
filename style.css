@@ -1,77 +1,21 @@
-/* General reset */
 body {
-    background-color: black;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: aliceblue;
-}
-
-/* Header */
-header {
-    background: #111;
-    padding: 15px 0;
-    align-items: center;
-}
-
-header .container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-header nav ul {
     display: flex;
     justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul {
-    list-style: none;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #00aaff;
-}
-
-/* Content */
-.content-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 20px; /* space below header */
 }
 
 .content {
-    max-width: 700px;
-    text-align: center;
+    align-items: center;
+    margin-top: 8%;
+    width: 50%;
 }
 
-h1, h3 {
-    font-style: italic;
+h3 {
+    color: grey;
 }
 
 p {
-    line-height: 1.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
